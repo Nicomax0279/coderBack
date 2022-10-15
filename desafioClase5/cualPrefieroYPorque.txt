@@ -1,0 +1,1 @@
+Creo que pug es muy difícil de comprender y tiene demasiadas variables. en cuanto a esj es escribir html y abrir etiquetas para escribir código js mientras que handlebars es una mezcla en general pero me resulto fácil de entender , en mi opinión con cualquiera de los dos me sentiría cómodo
