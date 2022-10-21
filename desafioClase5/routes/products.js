@@ -15,7 +15,8 @@ router.get("/",async(req,res)=>{
     res.render('products',{
         products : products
     })
-
+   
+    
 })
 router.get("/:id",async(req,res)=>{
     
