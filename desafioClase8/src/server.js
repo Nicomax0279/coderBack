@@ -61,15 +61,23 @@ io.on("connection",async(socket)=>{
     })
     //table
     socket.on("newProduct",async(data)=>{
+        if(isComplete(data)){
         await contenedor.save(data);
          list = await contenedor.getAll()
          //console.log("data",data)
 
         io.sockets.emit("newProduct", list)
-
+        }
     })
     
     
 
 })
 
+function isComplete(product){
+    if(product.title == ""){return false}
+    if(product.price == ""){return false}
+    if(product.thumbnail == ""){return false}
+    return true;
+
+}

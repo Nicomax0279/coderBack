@@ -85,7 +85,7 @@ function parseProduct(newProduct){
     
     return parseProduct;
 }
-function isComplete(product){
+ function isComplete(product){
     if(product.title == undefined){return false}
     if(product.price == undefined){return false}
     if(product.thumbnail == undefined){return false}
