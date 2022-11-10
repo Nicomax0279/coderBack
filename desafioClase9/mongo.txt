@@ -1,0 +1,45 @@
+//1
+db.productos.insertMany([
+    {title:"Escuadra",price:123.45,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png"},
+    {title:"Calculadora",price:2300.56,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png"},
+    {title:"Globo Terráqueo",price:3450.67,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"lapiz",price:1000,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"lapicera",price:100.50,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"compas",price:2000.67,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"goma",price:500.67,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"liqui",price:2000.67,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"lapiz color",price:150.67,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"},
+    {title:"lapiz marca",price:1490.99,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"}
+])
+db.mensajes.insertMany([
+    {menssage:"hola carlos",username:"manuLo@gmail.com",date:"21/10/2022, 07:03:05"},
+    {menssage:"hola manu, como va",username:"carlosQueen@gmail.com",date:"21/10/2022, 07:04:05"},
+    {menssage:"todo bien ",username:"manuLo@gmail.com",date:"21/10/2022, 07:05:05"},
+    {menssage:"hola gente",username:"marino@gmail.com",date:"21/10/2022, 07:09:05"},
+    {menssage:"hola miri",username:"manuLo@gmail.com",date:"21/10/2022, 07:12:05"},
+    {menssage:"solo falta jose",username:"carlosQueen@gmail.com",date:"21/10/2022, 07:17:05"},
+    {menssage:"ya estoy,gente que tal",username:"jose@gmail.com",date:"21/10/2022, 07:20:05"},
+    {menssage:"bueno empezamos",username:"carlosQueen@gmail.com",date:"21/10/2022, 07:26:05"},
+    {menssage:"dale aya camos",username:"manuLo@gmail.cosm",date:"21/10/2022, 07:30:05"},
+    {menssage:"dale",username:"carlosQueen@gmail.com",date:"21/10/2022, 07:40:05"},
+])
+//3
+db.productos.find()
+db.mensajes.find()
+//4
+db.productos.count()
+db.mensajes.count()
+//5
+//a
+db.productos.insertOne({title:"regla",price:1490.99,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"})
+//b
+db.productos.find({"price":{"$lte":1000}})
+db.productos.find({$and:[{"price":{"$gte":1000}},{"price":{"$lte":3000}}]})
+db.productos.find({"price":{"$gte":3000}})
+db.productos.find().skip(2).limit(1).sort({"price":1})
+//c
+db.productos.update({},{$set:{"stock":100}},{"multi":true})
+//d
+db.productos.update({"price":{"$gte":4000}},{$set:{"stock":0}},{"multi":true})
+//e
+db.productos.deleteMany({"price":{"$lte":1000}})
