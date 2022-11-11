@@ -1,3 +1,6 @@
+use ecommerce
+db.createCollection("productos")
+db.createCollection("mensajes")
 //1
 db.productos.insertMany([
     {title:"Escuadra",price:123.45,thumbnail:"https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png"},
@@ -43,3 +46,7 @@ db.productos.update({},{$set:{"stock":100}},{"multi":true})
 db.productos.update({"price":{"$gte":4000}},{$set:{"stock":0}},{"multi":true})
 //e
 db.productos.deleteMany({"price":{"$lte":1000}})
+
+db.createUser({user :"pepe",pwd : "asd456",roles:[{role : "read" , db :"ecommerce"}]})
+
+mongo -u pepe -p asd456 
