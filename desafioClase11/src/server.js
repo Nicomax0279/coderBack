@@ -67,6 +67,7 @@ const chatSchema = new schema.Entity("chat", {
     messages:[messageSchema]}
     , {idAttribute:"id"});
 function comprecion(chat){
+    
 
     const normalizerChat = normalize({id:"chatHistory", messages:chat}, chatSchema);
     // console.log(JSON.stringify(normalizerChat,null,"\t"));

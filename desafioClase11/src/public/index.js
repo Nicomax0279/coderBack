@@ -3,7 +3,7 @@
 
 
 const socketCliente = io();
-
+const compresion = document.getElementById("compresion")
 const MenCon = document.getElementById("MensaggesContainer")
 const mail = document.getElementById("mail");
 const name = document.getElementById("name");
@@ -94,8 +94,15 @@ send.onclick= function emit() {
 }
 socketCliente.on("menssages",(data)=>{
 let elementos = "";
+ normalizado = JSON.stringify(data).length
+
  chat = normalizr.denormalize(data.result,chatSchema,data.entities);
-//console.log(chat)
+
+ sinNormalizar = JSON.stringify(chat).length
+ //console.log("nor",normalizado,"nON",sinNormalizar)
+ let comp = normalizado*100/sinNormalizar
+ compresion.innerHTML = `compresion: %${comp.toFixed(2)}`
+
 chat.messages.forEach(i => {
     //console.log(i)
     elementos += `<p><strong>${i.author.alias} [${i.date}]</strong>:${i.text}</p>`
