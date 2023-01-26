@@ -126,7 +126,7 @@ app.get("/cart",(req,res)=>{
 app.get("/",(req,res)=>{
     res.redirect("/profile")
 })
-import { pedidoMessage } from './class/mensages.js';
+import { pedidoMessage,confirmacionDelPedido,pedidowhatapp } from './class/mensages.js';
 app.post("/pedido/:id",async (req,res)=>{
     const id = req.params.id
     const products = await cartsManager.getProductsById(id)
@@ -135,7 +135,10 @@ app.post("/pedido/:id",async (req,res)=>{
         user : req.session.user.email
 
     }
-    pedidoMessage(pedido)
+    pedidoMessage(pedido,req.user.email)
+    //confirmacionDelPedido(pedido,req.user.email)
+    pedidowhatapp(pedido,req.user.email)
+    
     
 
     
