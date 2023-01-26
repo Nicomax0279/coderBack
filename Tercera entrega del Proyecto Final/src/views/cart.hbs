@@ -1,0 +1,24 @@
+<h2>carrito</h2> <p id="pid"></p>
+{{> table}}
+
+<div>Ingrese ID del carrito</div>
+
+<input type="button" onclick=finalizarPedido() value="Finalizar pedido">
+<br>
+<br>
+
+<input type="text" id="cartID" >
+<input type="button" value="buscar Carrito"  onclick=buscarCarrito()>
+<input type="button" value="eliminar Carrito"  onclick=eliminarCarrito()>
+
+<br>
+
+<br>
+<br>
+
+<input type="text" id="productID" >
+<input type="button" value="agregar producto"  onclick=agregarProducto()>
+
+<input type="button" value="eliminar producto"  onclick=eliminarProducto()>
+<input type="button" value="nuevo Carrito"  onclick=nuevoCarrito()>
+<script src="cart.js"></script>

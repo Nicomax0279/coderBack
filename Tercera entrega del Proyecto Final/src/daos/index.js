@@ -5,7 +5,7 @@ import {productsModel} from "../mongo/productsModel.js"
 
 import { mongoConfig } from "../config/dbConfig.js";
 
-let databaseType = "archivos"
+let databaseType = "mongo"
 
 switch (databaseType) {
     case "archivos":
@@ -20,7 +20,7 @@ switch (databaseType) {
         ProductsDaoContainer = new ProductsDaoMongo(mongoConfig,productsModel)
         CartsDaoContainer = new CartsDaoMongo(mongoConfig,cartModel)
 
-1
+
         break;
     case "sql":
 
