@@ -70,8 +70,8 @@ const cartsManager = {
 
     },
     deleteProducts : async(cartId,productId)=>{
-        if(! await productsManager.exist(productId)){
-          
+        if( await productsManager.exist(productId)){
+            
             return false
         }
     

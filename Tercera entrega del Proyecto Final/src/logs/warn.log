@@ -102,3 +102,13 @@
 [2023-01-25T15:34:44.849] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
 [2023-01-25T15:36:37.873] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
 [2023-01-25T15:36:50.912] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-27T11:51:50.630] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/[object%20HTMLInputElement] método GET no implementada
+[2023-01-27T11:52:12.805] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/63d13ba0b0a22fc6dc6d653a método GET no implementada
+[2023-01-27T11:52:49.039] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/63d13ba0b0a22fc6dc6d653a método DELETE no implementada
+[2023-01-27T11:55:14.107] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:19.543] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:42.300] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:43.169] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:45.880] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:55.531] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:56:07.623] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada

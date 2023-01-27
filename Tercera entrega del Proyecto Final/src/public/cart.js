@@ -17,7 +17,7 @@ products.forEach((product)=>{
     //<td scope="row">${product.id}</th>
     html +=`
     <tr>
-     
+    <td scope="row">${product._id}</th>
     <td>${product.title}</td>
     <td>${product.price}</td>
     
@@ -55,7 +55,7 @@ function agregarProducto(){
 
    function eliminarProducto(){
     let productID = document.getElementById("productID")
- 
+    fetch(`/api/carts/${grobalId}/products/${productID.value}`,{method : "DELETE"})
     
  
     }

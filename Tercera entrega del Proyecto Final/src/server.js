@@ -89,7 +89,7 @@ app.use(session({
         mongoUrl : mongoUrl
     }),
     cookie:{
-        maxAge : 600000
+        maxAge : 6000000
     },
     resave:false,
     saveUninitialized:false,

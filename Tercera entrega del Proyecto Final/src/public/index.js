@@ -52,12 +52,12 @@ campo.addEventListener("keydown",(evt)=>{
     let html = "";
     html= '';
     products = datos;
-    
+    console.log(products)
     products.forEach((product)=>{
-        //<td scope="row">${product.id}</th>
+       
         html +=`
         <tr>
-         
+        <td scope="row">${product._id}</th> 
         <td>${product.title}</td>
         <td>${product.price}</td>
         
