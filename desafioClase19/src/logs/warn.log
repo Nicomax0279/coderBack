@@ -112,3 +112,24 @@
 [2023-01-27T11:55:45.880] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
 [2023-01-27T11:55:55.531] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
 [2023-01-27T11:56:07.623] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-02-03T13:43:14.997] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:38.323] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:44.160] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:45.576] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:45.925] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:46.535] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:53.203] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.232] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.234] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.634] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.640] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.651] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:38.234] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:44.136] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:45.573] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:46.020] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:51.599] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:14.239] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:15.114] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:16.114] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:38.201] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET

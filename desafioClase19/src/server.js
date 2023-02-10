@@ -1,6 +1,9 @@
 import express from 'express'
 import {connectDB} from './config/dbConfig.js'
 import * as dotenv from 'dotenv';
+dotenv.config({
+    path : ".env"
+})
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { options } from './config/options.js';
@@ -15,9 +18,7 @@ import  {logger}  from "./logs/logger.js";
 
 
 import Mainrouter from './routes/index.js'
-dotenv.config({
-    path : ".env"
-})
+
 
 
 const app = express()
