@@ -4,8 +4,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 import { logger } from "../../logs/logger.js"
 import { options } from '../../config/options.js';
-
-let persistence = process.argv[2]  || "MONGODB"
+let persistence = options.persistence
 console.log(persistence)
 let MessagesManager;
 let UserManager;
