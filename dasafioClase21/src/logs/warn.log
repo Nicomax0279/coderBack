@@ -1,0 +1,363 @@
+[2023-01-13T16:59:56.901] [WARN] default - RUTA inexistentes  ruta : /infoss, peticion : GET
+[2023-01-13T17:00:13.400] [WARN] default - RUTA inexistentes  ruta : /productssd, peticion : GET
+[2023-01-13T17:01:41.970] [WARN] default - RUTA inexistentes  ruta : /productssd, peticion : GET
+[2023-01-13T17:03:05.054] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-13T17:04:27.402] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-13T17:07:56.960] [WARN] default - RUTA inexistentes  ruta : /productssd, peticion : GET
+[2023-01-13T17:09:06.870] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-13T17:13:07.381] [WARN] default - RUTA inexistentes  ruta : /perfil, peticion : GET
+[2023-01-13T17:14:01.806] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-13T17:14:13.992] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-13T17:14:48.867] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:14:57.768] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:14:59.892] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:01.150] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:31.101] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:52.829] [ERROR] default - error en api Products ruta : /2, peticion : PUT
+[2023-01-13T17:16:00.594] [ERROR] default - error en api Products ruta : /3, peticion : PUT
+[2023-01-14T10:43:17.256] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:45.084] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:47.726] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:50.548] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:44:09.490] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:48:12.196] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:48:15.293] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:49:00.282] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:49:01.927] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:01.930] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-14T10:49:37.870] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:49:39.621] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:53.191] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:53.195] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-14T10:49:53.726] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:49:56.044] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:56.045] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-14T10:49:56.309] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-14T10:50:24.870] [WARN] default - RUTA inexistentes  ruta : /alt=%22img%22, peticion : GET
+[2023-01-25T09:09:44.111] [WARN] default - { error: '-1, descripcion: ruta /:id método GET no autorizada' }
+[2023-01-25T09:24:25.137] [ERROR] default - error en api Products ruta : /, peticion : POST, error el formato no es correcto
+[2023-01-25T09:24:31.741] [ERROR] default - error en api Products ruta : /, peticion : POST, error el formato no es correcto
+[2023-01-25T09:26:06.961] [ERROR] default - error en api Products ruta : /5, peticion : PUT, error producto no encontrado
+[2023-01-25T09:26:14.232] [ERROR] default - error en api Products ruta : /4, peticion : PUT, error producto no encontrado
+[2023-01-25T09:31:57.268] [WARN] default -  error : -2, descripcion: ruta /api/carrito/ método GET no implementada
+[2023-01-25T10:00:04.898] [WARN] default -  error : -2, descripcion: ruta /api/carrito/637702584f5ead0f362260c4 método GET no implementada
+[2023-01-25T10:45:17.220] [WARN] default -  error : -2, descripcion: ruta /api/randoms método GET no implementada
+[2023-01-25T10:45:24.155] [WARN] default -  error : -2, descripcion: ruta / método GET no implementada
+[2023-01-25T10:45:36.589] [WARN] default -  error : -2, descripcion: ruta / método GET no implementada
+[2023-01-25T10:47:11.997] [WARN] default -  error : -2, descripcion: ruta /profile método GET no implementada
+[2023-01-25T10:47:22.099] [WARN] default -  error : -2, descripcion: ruta /index.js método GET no implementada
+[2023-01-25T10:47:26.320] [WARN] default -  error : -2, descripcion: ruta /index.js método GET no implementada
+[2023-01-25T10:47:33.363] [WARN] default -  error : -2, descripcion: ruta /index.js método GET no implementada
+[2023-01-25T10:49:03.482] [WARN] default -  error : -2, descripcion: ruta /info método GET no implementada
+[2023-01-25T10:49:34.921] [WARN] default -  error : -2, descripcion: ruta /products método GET no implementada
+[2023-01-25T10:51:45.547] [WARN] default -  error : -2, descripcion: ruta /products método GET no implementada
+[2023-01-25T10:55:11.299] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:55:14.309] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:55:19.462] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:55:20.124] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:55:20.700] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:55:21.265] [WARN] default -  error : -2, descripcion: ruta /api/products método GET no implementada
+[2023-01-25T10:56:10.946] [WARN] default -  error : -2, descripcion: ruta /ssss método GET no implementada
+[2023-01-25T10:56:10.989] [WARN] default -  error : -2, descripcion: ruta /foto método GET no implementada
+[2023-01-25T10:56:11.280] [WARN] default -  error : -2, descripcion: ruta /assasda método GET no implementada
+[2023-01-25T10:56:11.289] [WARN] default -  error : -2, descripcion: ruta /assLINKasda método GET no implementada
+[2023-01-25T10:58:14.142] [WARN] default -  error : -2, descripcion: ruta /ssss método GET no implementada
+[2023-01-25T10:58:14.144] [WARN] default -  error : -2, descripcion: ruta /assasda método GET no implementada
+[2023-01-25T10:58:14.183] [WARN] default -  error : -2, descripcion: ruta /sdsad método GET no implementada
+[2023-01-25T10:58:14.406] [WARN] default -  error : -2, descripcion: ruta /assLINKasda método GET no implementada
+[2023-01-25T10:58:14.411] [WARN] default -  error : -2, descripcion: ruta /foto método GET no implementada
+[2023-01-25T10:59:35.759] [WARN] default -  error : -2, descripcion: ruta /ssss método GET no implementada
+[2023-01-25T10:59:35.765] [WARN] default -  error : -2, descripcion: ruta /assasda método GET no implementada
+[2023-01-25T10:59:35.766] [WARN] default -  error : -2, descripcion: ruta /assLINKasda método GET no implementada
+[2023-01-25T10:59:35.767] [WARN] default -  error : -2, descripcion: ruta /foto método GET no implementada
+[2023-01-25T10:59:35.768] [WARN] default -  error : -2, descripcion: ruta /sdsad método GET no implementada
+[2023-01-25T10:59:41.560] [WARN] default -  error : -2, descripcion: ruta /ssss método GET no implementada
+[2023-01-25T10:59:41.566] [WARN] default -  error : -2, descripcion: ruta /assasda método GET no implementada
+[2023-01-25T10:59:41.567] [WARN] default -  error : -2, descripcion: ruta /assLINKasda método GET no implementada
+[2023-01-25T10:59:41.568] [WARN] default -  error : -2, descripcion: ruta /foto método GET no implementada
+[2023-01-25T10:59:41.570] [WARN] default -  error : -2, descripcion: ruta /sdsad método GET no implementada
+[2023-01-25T10:59:53.207] [WARN] default -  error : -2, descripcion: ruta /ssss método GET no implementada
+[2023-01-25T10:59:53.209] [WARN] default -  error : -2, descripcion: ruta /assasda método GET no implementada
+[2023-01-25T10:59:53.212] [WARN] default -  error : -2, descripcion: ruta /assLINKasda método GET no implementada
+[2023-01-25T10:59:53.215] [WARN] default -  error : -2, descripcion: ruta /foto método GET no implementada
+[2023-01-25T10:59:53.216] [WARN] default -  error : -2, descripcion: ruta /sdsad método GET no implementada
+[2023-01-25T12:54:45.628] [WARN] default -  error : -2, descripcion: ruta /api/carts//products método GET no implementada
+[2023-01-25T12:55:53.250] [WARN] default -  error : -2, descripcion: ruta /api/carrito método POST no implementada
+[2023-01-25T13:26:31.371] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:26:37.989] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:29:35.126] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:33:53.067] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:37:23.575] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:38:20.010] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:40:13.021] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:40:13.388] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:40:14.087] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:40:22.173] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T13:41:46.252] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T14:01:42.351] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T14:01:43.660] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-25T15:14:47.124] [WARN] default -  error : -2, descripcion: ruta /api/carts/ método DELETE no implementada
+[2023-01-25T15:34:18.039] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-25T15:34:22.491] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-25T15:34:44.849] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-25T15:36:37.873] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-25T15:36:50.912] [WARN] default -  error : -2, descripcion: ruta /pedido/63d15120a4131d06a03f0b3a método POST no implementada
+[2023-01-27T11:51:50.630] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/[object%20HTMLInputElement] método GET no implementada
+[2023-01-27T11:52:12.805] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/63d13ba0b0a22fc6dc6d653a método GET no implementada
+[2023-01-27T11:52:49.039] [WARN] default -  error : -2, descripcion: ruta /api/cart/63d3e4602a6e24cca2d7f4b9/products/63d13ba0b0a22fc6dc6d653a método DELETE no implementada
+[2023-01-27T11:55:14.107] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:19.543] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:42.300] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:43.169] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:45.880] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:55:55.531] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-01-27T11:56:07.623] [WARN] default -  error : -2, descripcion: ruta /undefined método GET no implementada
+[2023-02-03T13:43:14.997] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:38.323] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:44.160] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:45.576] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:45.925] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:46.535] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:43:53.203] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.232] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.234] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.634] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.640] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:13.651] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:38.234] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:44.136] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:45.573] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:46.020] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:44:51.599] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:14.239] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:15.114] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:16.114] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-03T13:45:38.201] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:29:23.769] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:29:47.524] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:29:49.736] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:29:51.005] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:29:53.874] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:54:10.224] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:54:32.733] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T11:54:55.317] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:29:32.044] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:30:03.128] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:30:04.630] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:33:05.074] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:33:55.942] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:35:38.648] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:40:00.459] [ERROR] default - error en api Products ruta : /2, peticion : GET
+[2023-02-09T13:40:00.479] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:40:40.331] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:40:41.934] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T13:41:02.214] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T19:43:57.228] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T19:44:20.533] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-09T19:44:21.289] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:48:05.074] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:48:26.285] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:49:43.916] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:49:48.922] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:50:09.733] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:50:12.066] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:50:25.675] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T09:50:25.972] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:33:51.234] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:34:39.913] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:35:01.613] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:36:40.344] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:36:45.786] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:37:04.878] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:37:46.926] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:38:45.055] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:39:47.350] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:41:23.351] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:41:46.782] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:42:33.875] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:43:44.171] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:44:05.956] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:46:22.804] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:46:46.348] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:46:56.568] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:47:03.208] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:09.728] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:11.793] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:16.605] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:22.110] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:27.282] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:46.957] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:55:51.818] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:56:04.132] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:56:07.622] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:56:52.130] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:56:54.529] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:57:02.698] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:57:13.068] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:57:24.772] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:57:32.010] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T10:57:44.873] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:01:27.736] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:01:53.931] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:01:58.005] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:02:00.597] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:02:11.045] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:02:33.849] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:03:00.295] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:03:03.435] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:03:19.735] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:03:21.651] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:04:20.157] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:04:22.557] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:04:43.443] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:04:59.146] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:05:33.829] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:05:39.223] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:05:49.807] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:06:14.942] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:12:59.910] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:04.671] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:05.617] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:33.244] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:36.947] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:38.050] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:13:40.128] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:14:30.148] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:14:33.099] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:14:38.978] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:15:05.321] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:15:07.954] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:18:35.547] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:18:37.644] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:18:38.705] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:20:43.492] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:05.183] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:09.663] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:09.918] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:09.924] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:12.344] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:27.199] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:36.121] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:54.808] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:55.051] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:21:55.058] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:24:55.767] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:25:46.811] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:28:02.038] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:28:41.018] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:51:53.517] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:52:08.109] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:52:23.825] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:52:49.483] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:52:50.883] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:52:55.014] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:15.028] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:15.030] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:15.030] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:15.291] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:39.211] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:42.356] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:46.011] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:51.641] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:53:55.024] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:57:54.848] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:57:57.677] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T11:59:34.617] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:00:43.776] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:01:40.203] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:01:52.388] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:02:40.669] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:02:49.240] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:03:29.040] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T12:04:05.644] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:02:09.035] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:02:27.730] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:02:30.423] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:02:39.410] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:03:05.327] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:03:08.781] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:03:19.508] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:03:24.296] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:03:39.410] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:04:18.432] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:04:23.032] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:04:42.420] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:05.967] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:25.074] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:29.190] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:31.637] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:34.677] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:05:39.113] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:07:03.556] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:07:05.979] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:08:24.480] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:08:26.608] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:08:35.103] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:09:26.088] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:09:28.314] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:09:34.323] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:09:43.569] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:05.425] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:09.498] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:15.920] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:35.391] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:44.444] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:44.484] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:44.705] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:44.719] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-10T13:10:46.488] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:11:22.507] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:11:31.518] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:12:15.591] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:12:37.135] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:34:10.007] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T14:37:42.464] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:33:27.632] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:34:03.479] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:50:11.863] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:11.865] [ERROR] default - error en api Products ruta : /63ea7728658605e423a98fee, peticion : DELETE
+[2023-02-13T15:50:11.871] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:11.871] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:20.315] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:50:37.320] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:50:43.778] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:43.778] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T15:50:43.784] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:43.784] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:45.637] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T15:51:38.304] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:38.306] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T15:51:38.318] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:38.318] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:43.179] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:11:56.543] [ERROR] default - producto no encontrado
+[2023-02-13T16:11:56.543] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:11:56.555] [ERROR] default - producto no encontrado
+[2023-02-13T16:11:56.555] [ERROR] default - producto no encontrado
+[2023-02-13T16:12:42.487] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:12:53.427] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:12:53.529] [ERROR] default - producto no encontrado
+[2023-02-13T16:12:53.529] [ERROR] default - producto no encontrado
+[2023-02-13T16:26:52.500] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:27:33.357] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:27:34.896] [ERROR] default - producto no encontrado
+[2023-02-13T16:27:34.897] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:27:37.126] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:29:01.266] [ERROR] default - producto no encontrado
+[2023-02-13T16:29:01.267] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:29:37.902] [ERROR] default - producto no encontrado
+[2023-02-13T16:29:37.903] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:30:55.265] [ERROR] default - producto no encontrado
+[2023-02-13T16:30:55.266] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:31:45.234] [ERROR] default - producto no encontrado
+[2023-02-13T16:31:45.235] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:32:03.751] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:33:01.787] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:33:22.093] [ERROR] default - producto no encontrado
+[2023-02-13T16:33:22.095] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:33:26.344] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-13T16:46:44.359] [WARN] default - RUTA inexistentes  ruta : /favicon.ico, peticion : GET
+[2023-02-17T10:56:04.004] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T10:57:36.976] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T10:58:15.186] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T22:03:23.572] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
