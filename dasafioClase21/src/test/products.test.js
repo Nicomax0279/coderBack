@@ -2,7 +2,7 @@ import {app} from './../server.js'
 import supertest from 'supertest'
 import {expect} from 'chai'
 import mocha from 'mocha'
-import { json } from 'express'
+let post_id 
 const request = supertest(app)
 const URL = "/api/products"
 //pruebas de lo enpoin de usuarios
@@ -12,7 +12,7 @@ describe("api products test",()=>{
        expect(response.status).equal(200)
     })
     it("get product",async()=>{
-        const id = '63d15159a4131d06a03f0b65'
+        const id = '63ef87d0e7b8f27891f0c4e7'
         let  response = await request.get(`${URL}/${id}`)
         //console.log(response)
         let body = await response._body
@@ -29,8 +29,10 @@ describe("api products test",()=>{
             
             })
         //console.log(response)
-        let body = await response._body
+      
         expect(response.body).to.have.own.property("id")
+        post_id = response.body.id
+        
         expect(response.status).equal(200)
  
     })
@@ -44,7 +46,7 @@ describe("api products test",()=>{
     
     })
     it("put product",async()=>{
-        const id = "63d15159a4131d06a03f0b65"  
+        const id = "63ef87d0e7b8f27891f0c4e7"  
         let  response = await request.put(`${URL}/${id}`).send({
     
             title: "lapiz Marca",
@@ -53,13 +55,14 @@ describe("api products test",()=>{
             
             })
         //console.log(response)
-        let body = await response._body
+        let body = await response.body
+        console.log(body)
         console.log(response.status)
         expect(response.status).equal(200)
  
     })
     it("put product no exits id",async()=>{
-        const id = "63d15159asd4131dasd6a03f0da5"  
+        const id = "6a3ef87d0es7b8327891f0c4e7" 
         let  response = await request.put(`${URL}/${id}`).send({
     
             title: "lapiz Marca",
@@ -81,6 +84,15 @@ describe("api products test",()=>{
         expect(response.status).equal(400)
  
     })
+    it("delete post product ",async()=>{
+        
+        let  response = await request.delete(`${URL}/${post_id}`)
+    
+        console.log(response.body)
+        expect(response.status).equal(200)
+ 
+    })
+    
 
 
 })
