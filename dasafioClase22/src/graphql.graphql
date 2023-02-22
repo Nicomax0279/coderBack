@@ -1,0 +1,35 @@
+
+{
+  getProducts {
+    id,
+    title,
+    price
+  }
+}
+
+# {
+#   getProductById(id:"63d13ba0b0a22fc6dc6d653a"){
+#     id,
+#     price,
+#     title
+#   }
+# }
+
+# mutation{
+#   addProduct(product:{title:"lapizera",price:100,thumbnail:"https://png.pngtree.com/element_pic/00/16/07/30579c5a2515cb9.jpg"}){
+#     id
+#   }
+# }
+
+# mutation{
+#   deleteProductById(id:"63f68aa189b03180a3dc2953")
+# }
+
+# mutation{
+#   putProductById(id:"63f68b4fc47792efbc928e17",product:{title:"lapizera premiun",price:200}) {
+#     id,
+#     title,
+#     price,
+#     thumbnail
+#   }
+# }

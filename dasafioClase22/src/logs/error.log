@@ -1,0 +1,87 @@
+[2023-01-13T17:14:48.867] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:14:57.768] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:14:59.892] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:01.150] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:31.101] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-13T17:15:52.829] [ERROR] default - error en api Products ruta : /2, peticion : PUT
+[2023-01-13T17:16:00.594] [ERROR] default - error en api Products ruta : /3, peticion : PUT
+[2023-01-14T10:43:17.256] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:45.084] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:47.726] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:43:50.548] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:44:09.490] [ERROR] default - El objeto con id 5 no existe 
+[2023-01-14T10:49:01.927] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:01.930] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-14T10:49:39.621] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:53.191] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:53.195] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-14T10:49:56.044] [ERROR] default - El campo title esta vacio 
+[2023-01-14T10:49:56.045] [ERROR] default - error en api Products ruta : /, peticion : POST
+[2023-01-25T09:24:25.137] [ERROR] default - error en api Products ruta : /, peticion : POST, error el formato no es correcto
+[2023-01-25T09:24:31.741] [ERROR] default - error en api Products ruta : /, peticion : POST, error el formato no es correcto
+[2023-01-25T09:26:06.961] [ERROR] default - error en api Products ruta : /5, peticion : PUT, error producto no encontrado
+[2023-01-25T09:26:14.232] [ERROR] default - error en api Products ruta : /4, peticion : PUT, error producto no encontrado
+[2023-02-09T13:40:00.459] [ERROR] default - error en api Products ruta : /2, peticion : GET
+[2023-02-13T15:50:11.863] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:11.865] [ERROR] default - error en api Products ruta : /63ea7728658605e423a98fee, peticion : DELETE
+[2023-02-13T15:50:11.871] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:11.871] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:43.778] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:43.778] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T15:50:43.784] [ERROR] default - producto no encontrado
+[2023-02-13T15:50:43.784] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:38.304] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:38.306] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T15:51:38.318] [ERROR] default - producto no encontrado
+[2023-02-13T15:51:38.318] [ERROR] default - producto no encontrado
+[2023-02-13T16:11:56.543] [ERROR] default - producto no encontrado
+[2023-02-13T16:11:56.543] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:11:56.555] [ERROR] default - producto no encontrado
+[2023-02-13T16:11:56.555] [ERROR] default - producto no encontrado
+[2023-02-13T16:12:53.427] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:12:53.529] [ERROR] default - producto no encontrado
+[2023-02-13T16:12:53.529] [ERROR] default - producto no encontrado
+[2023-02-13T16:27:34.896] [ERROR] default - producto no encontrado
+[2023-02-13T16:27:34.897] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:29:01.266] [ERROR] default - producto no encontrado
+[2023-02-13T16:29:01.267] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:29:37.902] [ERROR] default - producto no encontrado
+[2023-02-13T16:29:37.903] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:30:55.265] [ERROR] default - producto no encontrado
+[2023-02-13T16:30:55.266] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:31:45.234] [ERROR] default - producto no encontrado
+[2023-02-13T16:31:45.235] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-13T16:33:22.093] [ERROR] default - producto no encontrado
+[2023-02-13T16:33:22.095] [ERROR] default - error en api Products ruta : /63ea8663cde42c389ea75585, peticion : DELETE
+[2023-02-17T10:56:04.004] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T10:57:36.976] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T10:58:15.186] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-17T22:03:23.572] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:14:26.066] [ERROR] default - producto no encontrado
+[2023-02-18T10:14:28.229] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:20:26.621] [ERROR] default - producto no encontrado
+[2023-02-18T10:20:28.721] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:21:03.705] [ERROR] default - producto no encontrado
+[2023-02-18T10:21:05.774] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:21:34.719] [ERROR] default - producto no encontrado
+[2023-02-18T10:21:36.913] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:22:47.421] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:23:41.651] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:24:10.418] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:25:33.549] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-18T10:26:04.274] [ERROR] default - error en api Products ruta : /63d15159asd4131dasd6a03f0da5, peticion : DELETE
+[2023-02-22T17:42:48.572] [ERROR] default - producto no encontrado
+[2023-02-22T17:43:30.520] [ERROR] default - producto no encontrado
+[2023-02-22T17:46:29.025] [ERROR] default - producto no encontrado
+[2023-02-22T17:48:55.946] [ERROR] default - producto no encontrado
+[2023-02-22T17:48:58.306] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:14.797] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:32.556] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:34.925] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:35.826] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:36.662] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:37.580] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:38.030] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:43.976] [ERROR] default - producto no encontrado
+[2023-02-22T17:49:45.045] [ERROR] default - producto no encontrado
+[2023-02-22T17:50:01.804] [ERROR] default - producto no encontrado
