@@ -21,7 +21,7 @@ router.get("/products",(req,res)=>{
 })
 router.use("/api/carts",validateToken,cartsRouter)
 router.use('/api/products',validateToken,produstsRouter)
-router.use('/api/users',userRouter)
+router.use('/api/users',validateToken,userRouter)
 router.use("/info",infoRouter)
 router.use("/api/chat",validateToken,chatRouter)
 router.use("/",loginRouter)

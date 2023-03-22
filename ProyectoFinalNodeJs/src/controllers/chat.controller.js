@@ -1,3 +1,4 @@
+import { logger } from '../logs/logger.js'
 import * as menssageService from '../services/menssage.service.js'
 
 
@@ -10,7 +11,7 @@ export const getMessages = async(req,res)=>{
       
       
     } catch (error) {
-     res.status(400).json({error:`error:${error}`})
+     res.status(400).json({error:`${error}`})
     }
      
    }
@@ -26,9 +27,9 @@ export const postMessage = async(req,res)=>{
         username : req.user.email
        }
        await menssageService.postMessage(chat);
-       res.status(200).json({Response:"message added successfully"})
+       res.status(200).json({success:"message added successfully"})
     } catch (error) {
-       res.status(400).json({error:`error:${error}`});
+       res.status(400).json({error:`${error}`});
     }   
    }
    export const deleteMensagge = async(req,res)=>{
@@ -40,7 +41,7 @@ export const postMessage = async(req,res)=>{
         res.status(200).send(response);
     } catch (error) {
         logger.error(`error en api Products ruta : ${req.path}, peticion : ${req.method}`)  
-        res.status(400).json({message:`Hubo un error ${error}`})
+        res.status(400).json({error:`${error}`})
     }
 
 }

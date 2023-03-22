@@ -15,9 +15,10 @@ router.put("/:id",isAdmin,productController.putProduct)
 router.delete("/:id",isAdmin,productController.deleteProduct)
 
 
-router.get("/:id",productController.getProductById)
+///router.get("/:id",productController.getProductById)
 //router.get("/:category",productController.getProductsByCategory)
 
+router.get("/:id",productController.getBy)
 
 
 

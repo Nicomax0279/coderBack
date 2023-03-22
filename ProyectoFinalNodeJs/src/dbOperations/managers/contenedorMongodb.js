@@ -24,7 +24,7 @@ class Contenedor{
     
        
         } catch (error) {
-            return error
+            throw new Error(error)
        }
 
     }
@@ -65,17 +65,21 @@ class Contenedor{
     }
     }
     async deleteByid(id){
-          
-        let exist = await this.exist(id)
-        if(exist){
-            await this.model.deleteOne({_id:id})
-
-        //delete
-        return true
-        }else{
-        return false
-        }
+        try {
+            
         
+            let exist = await this.exist(id)
+            if(exist){
+                await this.model.deleteOne({_id:id})
+
+            //delete
+            return true
+            }else{
+            return false
+            }
+        } catch (error) {
+            return error
+        }
        
 
     

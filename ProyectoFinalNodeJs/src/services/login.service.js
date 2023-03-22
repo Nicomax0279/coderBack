@@ -47,7 +47,6 @@ export const sinupUser = async(user)=>{
 
 const generateToken = (user)=>{
     const key = options.key
-    console.log(key)
     return jwt.sign(user,key)
 
 

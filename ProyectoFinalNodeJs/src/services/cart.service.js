@@ -1,14 +1,16 @@
+
 import {cartManager,productsManager} from '../dbOperations/index.js'
 
 
 export const postCart = async (productId,email)=>{  
     try {
+        console.log(productId)
         if(await productsManager.exist(productId)){
         const cart = {
             email : email,
             products : [productId]
         }
-
+        
         const parseCart = parseNewCart(cart) 
         const id = await cartManager.save(parseCart)
         return id
@@ -118,15 +120,15 @@ export const deleteProduct = async (cartId, productId)=>{
 
 export const deleteCart = async(id)=>{
     try {
-        res = await cartManager.deleteByid(id)
+        const res = await cartManager.deleteByid(id)
         if(res){
-            return "cart deleted successfully"
+            return  "cart deleted successfully"
         }else{
-            throw new error("cart deleted Error")
+            throw new Error("cart delete error")
         }
 
     } catch (error) {
-        return error
+        throw new Error(error)
     }
 
 
@@ -136,7 +138,7 @@ function parseNewCart(cart){
     let parseCart = {}
     try {
         parseCart.products = cart.products
-        parseCart.mail = cart.mail
+        parseCart.email = cart.email
         return parseCart
 
     } catch (error) {

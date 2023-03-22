@@ -7,7 +7,7 @@ router.post("/",cartsController.postCart)
 router.get("/:id",cartsController.getCartById)
 router.post("/:id",cartsController.addProduct)
 router.delete("/:id",cartsController.deleteProduct)
-router.delete("/delete/:id",cartsController.deleteCart)
+router.delete("/:id/delete",cartsController.deleteCart)
 
 
 

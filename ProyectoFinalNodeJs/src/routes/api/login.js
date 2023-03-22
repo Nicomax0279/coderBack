@@ -7,7 +7,7 @@ const loginRouter = Router()
 
 
 loginRouter.post("/login",loginControllers.login)
-loginRouter.post("/sinup",loginControllers.sinup)
+loginRouter.post("/singup",loginControllers.sinup)
 
 
 

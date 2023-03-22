@@ -52,13 +52,14 @@ export const deleteUser = async(id)=>{
 }
 export const postUser = async(user)=>{
     try {
-        UserManager.getbyEmail(user.email)
-        if(user){
+        const foundUser = await UserManager.getbyEmail(user.email)
+        console.log(foundUser)
+        if(foundUser){
             throw  new Error("this email is already registered") 
         }else{
-            user.password = await bcrypt.hash(password,5)
+            user.password = await bcrypt.hash(user.password,5)
             await UserManager.save(user)
-            return("user created successfully")
+            return({success:"user created successfully"})
         }
     } catch (error) {
         throw new Error(error)

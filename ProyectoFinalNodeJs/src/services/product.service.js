@@ -8,7 +8,7 @@ export const getAll = async ()=>{
 
 export const getById = async (id)=>{
     let exist = await productsManager.exist(id)
-        if(!exist){ logger.error("producto no encontrado");throw new Error("producto no encontrado" )
+        if(!exist){ logger.error("product not found");throw new Error("product not found" )
         }
         let product = await productsManager.getById(id);
         product = parseProductWidtId(product)
@@ -20,10 +20,10 @@ export const postProduct = async(product)=>{
     if(isComplete(product) && typesValidation(product)){
         product.price = Number.parseFloat(product.price)
         let id = await productsManager.save(product)
-        return ({success : "producto guardado" , id:id})     
+        return ({success : "saved product" , id:id})     
    
     }else{
-    throw new Error("el formato no es correcto")
+    throw new Error("format error")
     }
 } 
 export  const putProduct = async(id,product)=>{
@@ -31,11 +31,11 @@ export  const putProduct = async(id,product)=>{
     let exist = await productsManager.exist(id)
    
     
-        if(!exist){ throw new Error("producto no encontrado" )}
+        if(!exist){ throw new Error("product not found" )}
         product = parseProduct(product)
         
         await productsManager.putById(id,product)
-        return ({success : "producto actualizado" })
+        return ({success : "updated product" })
     }catch(error){
         throw new Error(error)
     }
@@ -44,15 +44,15 @@ export const deleteProduct = async(id)=>{
     let res =  await productsManager.deleteByid(id);
     //console.log(res)
     if(res){
-    return ({success : "producto eliminado" })
+    return ({success : "removed product" })
     }else{
-    throw new Error("producto no encontrado")    
+    throw new Error("product not found")    
     }
 
 }
 export const getProductsByCategory = async (category)=>{
     try {
-        const productsByCategory = awaitproductsManager.getbyCategory(category)
+        const productsByCategory = await productsManager.getbyCategory(category)
         return productsByCategory
     } catch (error) {
         throw new Error(error)

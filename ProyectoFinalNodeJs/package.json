@@ -6,12 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha ./src/test/products.test.js",
-    "start": "nodemon src/server.js",
-    "node-fork": "nodemon src/server.js -p 8080 -m FORK",
-    "node-cluster": "nodemon src/server.js -p 8081 -m CLUSTER",
-    "forever": "forever start src/server.js",
-    "artillery-child": "artillery quick --count 50 -n 40 http://localhost:8080/api/randoms?cant=1000 > result_child.txt",
-    "artillery-noChild": "artillery quick --count 50 -n 40 http://localhost:8080/api/randoms?cant=1000  > result_noChild.txt"
+    "start": "node src/server.js",
+    "dev":    "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
