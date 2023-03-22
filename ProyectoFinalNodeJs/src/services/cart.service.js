@@ -4,7 +4,7 @@ import {cartManager,productsManager} from '../dbOperations/index.js'
 
 export const postCart = async (productId,email)=>{  
     try {
-        console.log(productId)
+        
         if(await productsManager.exist(productId)){
         const cart = {
             email : email,
@@ -26,7 +26,7 @@ export const postCart = async (productId,email)=>{
 
 export const getCartById = async (id)=>{
     try {
-        const cart = await cartManager.getCartById()
+        const cart = await cartManager.getById(id)
         return cart
     } catch (error) {
         return error
